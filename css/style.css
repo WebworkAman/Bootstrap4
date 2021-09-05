@@ -1,0 +1,252 @@
+@import url("./reset.css");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: 'Signika', sans-serif;
+  background-color: #e5e5e5;
+}
+
+header .title h1 {
+  text-align: center;
+  font-size: 36px;
+  line-height: 3.6;
+}
+
+header .iconList {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+header .iconList li {
+  align-items: flex-end;
+  margin-left: 20px;
+}
+
+header .iconList li img {
+  width: 2vw;
+}
+
+header .iconList li button {
+  background-color: black;
+  color: white;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+header .nav {
+  font-size: .8rem;
+  margin-left: 35vw;
+}
+
+header .nav .nav-item {
+  border-left: 1px solid black;
+}
+
+header .nav .nav-item .nav-link {
+  color: black;
+}
+
+header .nav .nav-item :hover {
+  color: cadetblue;
+}
+
+header .nav .blueItem .nav-link {
+  color: cadetblue;
+}
+
+header .nav .blueItem :hover {
+  color: black;
+}
+
+header .nav .dropdown {
+  border-right: 1px solid black;
+}
+
+header .nav .dropdown-menu {
+  background-color: black;
+}
+
+header .nav .dropdown-menu .dropdown-item {
+  color: white;
+}
+
+header .nav .dropdown-menu .dropdown-item a :hover {
+  color: black;
+}
+
+.block1 {
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.block1 ul {
+  display: flex;
+  align-items: center;
+  height: 255px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  width: 70vw;
+}
+
+.block1 ul li {
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 999em;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.block2 {
+  background-color: #f6f6f6;
+  align-items: center;
+  text-align: left;
+  height: 500px;
+  overflow: hidden;
+}
+
+.block2 .table {
+  border: 1px solid black;
+  margin: 50px auto;
+  width: 65vw;
+}
+
+.block2 .table .thead-dark .thead .tfont {
+  margin: 0;
+  line-height: 2.6;
+}
+
+.block2 .table .thead-dark .thead .line {
+  background-color: white;
+  border-bottom: 1px solid white;
+  width: 730px;
+  height: 1px;
+  margin-top: 21px;
+}
+
+.block2 .table tbody tr :first-child {
+  width: 50px;
+  border-bottom-color: #f6f6f6;
+}
+
+.block2 .table tbody tr :last-child {
+  width: 50px;
+  border-bottom-color: #f6f6f6;
+}
+
+.block2 .table tbody tr th {
+  border-bottom: 1px solid black;
+}
+
+.block2 .table tbody tr .LastItem {
+  text-align: right;
+  padding-right: 60px;
+}
+
+.block2 .table tbody tr td {
+  border-bottom: 1px solid black;
+}
+
+.block2 .table tbody tr td :last-child {
+  margin-right: 40px;
+  float: right;
+}
+
+.block2 .table .spaceblock {
+  height: 84px;
+  border-bottom: 1px solid black;
+}
+
+.block2 .table button {
+  width: 50px;
+}
+
+.block2 .table #blank1 {
+  border-bottom: 1px solid black;
+}
+
+.block3 {
+  height: max-content;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block3 ul, .block3 ol {
+  font-size: 24px;
+}
+
+.block3 ul li, .block3 ol li {
+  margin: 5px;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+
+.block3 ul li img, .block3 ol li img {
+  max-width: 10vw;
+  width: 10vw;
+  height: 20vh;
+  margin: 30px auto;
+}
+
+@media (max-width: 992px) {
+  .block3 ul li img, .block3 ol li img {
+    min-width: 30vw;
+    width: 30vw;
+    height: 30vh;
+  }
+}
+
+.block3 article {
+  margin-top: 45px;
+  padding: 20px 38px;
+  border: 1px solid black;
+  width: 350px;
+  height: 500px;
+}
+
+@media (max-width: 992px) {
+  .block3 article {
+    margin: 0 auto;
+  }
+}
+
+.block3 article h3 {
+  margin-top: 10px;
+  font-weight: lighter;
+}
+
+.block3 article p {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+footer {
+  background-color: #f6f6f6;
+  height: 50px;
+  justify-content: center;
+}
+
+footer p {
+  text-align: center;
+  line-height: 50px;
+  font-weight: 100;
+}
+/*# sourceMappingURL=style.css.map */
